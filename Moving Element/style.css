@@ -1,0 +1,31 @@
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+  }
+
+
+  .featured {
+    width: 200px;
+    height: 200px;
+    background-color: #ff6f00;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    position: absolute;
+  }
+
+  .featured::selection {
+    background-color: transparent;
+  }
+  
